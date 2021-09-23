@@ -1,5 +1,7 @@
 package main
+// 倒入的包名或者库
 import "fmt"
+// 主函数
 func main(){
 x,y :=7,9
 fmt.Println(" x + y ",x+y)

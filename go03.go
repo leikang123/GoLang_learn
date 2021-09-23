@@ -2,6 +2,7 @@
 package main
 import "fmt"
 func main(){
+  // 定义指针变量a
 var a *int
 fmt.Println("a=",a)
 num :=1
