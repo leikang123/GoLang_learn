@@ -3,6 +3,7 @@ package main
 import "fmt"
 // 主函数
 func main(){
+// 定义变量名的简单写法:变量名 := 数值
 x,y :=7,9
 fmt.Println(" x + y ",x+y)
 fmt.Println(" x - y ",x-y)
