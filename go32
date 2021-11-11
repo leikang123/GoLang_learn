@@ -1,0 +1,17 @@
+package main
+
+import "fmt"
+
+func addSub(x int, y int) (int sum, int sub) {
+	sum = x + y
+	sub = x - y
+	return sum, sub
+}
+func main() {
+	a := 1
+	b := 2
+	f1 := addSub(a, b)
+	sum, sub := f1(a, b)
+	fmt.Println(a, "+", b, "=", sum)
+	fmt.Println(b, "-", b, "=", sub)
+}
