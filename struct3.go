@@ -11,14 +11,14 @@ type Book struct {
 
 func main() {
 	book := &Book{
-		title :"leikang",
-		aythor :"leikang",
-		price:218,
-		id:32,
+		"leikanguu",
+		"leikang",
+		218,
+		32,
 	}
 	fmt.Println(book.title)
 	fmt.Println(book.aythor)
 	fmt.Println(book.price)
 	fmt.Println(book.id)
 
-
+}
