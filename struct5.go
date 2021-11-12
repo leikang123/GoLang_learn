@@ -28,6 +28,7 @@ func (s *User) str() {
 	s.address = "jikljhhjfjhv"
 }
 func (d User) asd() {
+	// 初始化值不传递，相当于没写，只有在主类初始化才可以传递value 
 	d.name = "asd"
 	d.age = 23
 	d.mail = 8765
