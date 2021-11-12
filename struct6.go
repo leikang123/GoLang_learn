@@ -1,7 +1,7 @@
 package main
 
 import "fmt"
-
+// 结构体的继承
 type Book struct {
 	title  string
 	author string
