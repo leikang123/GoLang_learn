@@ -2,12 +2,12 @@ package main
 
 import "fmt"
 
-func addSub(x int, y int )  (sum int + sub int){
+func addSub(x int, y int )  (sum int , sub int){
 
 	// 两个变量的计算
 	sum = x + y
 	sub = x -y
-	 return sum + sub 
+	 return sum, sub 
 
 }
 
