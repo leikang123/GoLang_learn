@@ -1,8 +1,11 @@
 package main
 import "fmt"
 
+
+// 使用可变参数实现任意数进行计算
 func add(slice ... int) ( int ){
 	sum :=0
+	// 遍历数字
 	for _,value :=range slice{
 		sum = sum + value
 	}
