@@ -17,7 +17,7 @@ func main(){
 	var f1 func (x int , y int) (sun int,sub int)
 
 	f1 = addSub
-
+   
 	sum,sub :=f1(a,b)
 	fmt.Println(sum, "=",a,"+",b )
 	fmt.Println(sub,"=",a,"-",b)
