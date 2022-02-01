@@ -1,5 +1,7 @@
 package main
 
+// 线程的并发方法
+
 import (
 	"fmt"
 	"time"
