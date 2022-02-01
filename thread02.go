@@ -11,6 +11,7 @@ func main() {
 			fmt.Printl("go")
 		}
 	}()
+	// 循环
 	for i := 0; i < 2; i++ {
 		runtime.Gosched()
 		fmt.Println("main")
